@@ -1,5 +1,5 @@
 <templateSet group="My Group">
-  <template name="add" value="/**&#10; * &lt;p&gt; &#10; *   TODO&#10; * &lt;/p&gt;&#10; * @params&#10; * @return $return$&#10; * @author malong&#10; * @since $date$&#10; */" description="add commend" toReformat="false" toShortenFQNames="true">
+  <template name="add" value="/**&#10; * &lt;p&gt; &#10; *   TODO&#10; * &lt;/p&gt;&#10; * @param&#10; * @return $return$&#10; * @author malong&#10; * @since $date$&#10; */" description="add commend" toReformat="false" toShortenFQNames="true">
     <variable name="return" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
     <variable name="date" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>

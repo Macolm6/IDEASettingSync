@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="add" value="/**&#10; * &lt;p&gt;&#10; *    TODO 描述 &#10; * &lt;/p&gt;&#10; * @param：$param$&#10; * @return：$return$&#10; * @author：malong&#10; * @date:  $date$&#10; **/" toReformat="false" toShortenFQNames="true">
+  <template name="add" value="/**&#10; * &lt;p&gt;&#10; *    TODO 描述 &#10; * &lt;/p&gt;&#10; * @param $param$&#10; * @return $return$&#10; * @author malong&#10; * @since $date$&#10; **/" toReformat="false" toShortenFQNames="true">
     <variable name="param" expression="groovyScript(&quot;def result=''; def params=\&quot;${_1}\&quot;.replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); for(i = 0; i &lt; params.size(); i++) {result+=' * @param ' + params[i] + ((i &lt; params.size() - 1) ? '\\n' : '')}; return result&quot;, methodParameters()) " defaultValue="" alwaysStopAt="true" />
     <variable name="return" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />

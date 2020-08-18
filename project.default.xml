@@ -1,14 +1,12 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
-      <component name="CompilerWorkspaceConfiguration">
-        <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-      </component>
       <component name="MavenImportPreferences">
         <option name="generalSettings">
           <MavenGeneralSettings>
-            <option name="mavenHome" value="$USER_HOME$/Documents/config/apache-maven" />
-            <option name="userSettingsFile" value="$USER_HOME$/Documents/config/apache-maven/conf/settings.xml" />
+            <option name="alwaysUpdateSnapshots" value="true" />
+            <option name="mavenHome" value="$USER_HOME$/app/apache-maven" />
+            <option name="userSettingsFile" value="$USER_HOME$/app/apache-maven/conf/settings.xml" />
           </MavenGeneralSettings>
         </option>
         <option name="importingSettings">
@@ -21,7 +19,18 @@
         </option>
       </component>
       <component name="PropertiesComponent">
-        <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+        <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+      </component>
+      <component name="SaveActionSettings">
+        <option name="actions">
+          <set>
+            <option value="activate" />
+            <option value="activateOnShortcut" />
+            <option value="organizeImports" />
+            <option value="reformatChangedCode" />
+          </set>
+        </option>
+        <option name="configurationPath" value="" />
       </component>
     </defaultProject>
   </component>
